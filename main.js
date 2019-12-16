@@ -176,5 +176,3 @@ function drawScoreboard() {
 /* this is outside of any method, which is ok.  It'll happen when
  * the page loads */
 drawScoreboard()
-
-
