@@ -92,6 +92,7 @@ function draw() {
 
 function stopGame() {
   console.log("Game is Over")
+  document.getElementById("main-controls").classList.remove("hidden")
   document.getElementById("game-controls").classList.add("hidden")
   document.getElementById("scoreboard").classList.remove("hidden")
 
